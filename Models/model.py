@@ -49,7 +49,7 @@ print(classification_report(y_test,predictions))
 print(clf.score(X_test, y_test))
 print(clf.score(X_train, y_train))
 
-print(clf.predict([[45, 467, 0, 0, 0, 23, 0, 0]]))
+print(clf.predict([[450, 2143, 0, 0, 0, 23, 0, 0]]))
 print(clf.predict([[43, 200000, 50, 5, 0, 200, 1, 1]]))
 
 
